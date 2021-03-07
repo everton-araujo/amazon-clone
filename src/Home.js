@@ -16,12 +16,14 @@ function Home() {
 
         <div className="home_row">
           <Product
+            id='1'
             title='Kindle'
             price={89.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/61Ww4abGclL._AC_SL1000_.jpg'}
             rating={5}
           />
           <Product 
+            id='2'
             title='Echo Dot (4th Gen)'
             price={59.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/612KpcXcFBL._AC_SL1000_.jpg'}
@@ -31,18 +33,21 @@ function Home() {
 
         <div className="home_row">
           <Product 
+            id='3'
             title='Fire TV Stick Lite'
             price={49.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/51Da2Z%2BFTFL._AC_SL1000_.jpg'}
             rating={4}
           />
           <Product 
+            id='4'
             title='Fire 7 tablet'
             price={49.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/71POuqajw1L._AC_SL1500_.jpg'}
             rating={3}
           />
           <Product 
+            id='5'
             title='Echo Show 5 | Smart display with Alexa'
             price={64.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/716neMnDXXL._AC_SL1500_.jpg'}
@@ -52,6 +57,7 @@ function Home() {
 
         <div className="home_row">
           <Product 
+            id='6'
             title='Echo Frames (2nd Gen) | Smart audio glasses with Alexa'
             price={249.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/416Fv71ownL._AC_SL1000_.jpg'}
