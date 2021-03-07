@@ -1,5 +1,6 @@
 export const initialState = {
   basket: [],
+  user: null,
 };
 
 export const getBasketTotal = (basket) => basket?.reduce((amount, item) => item.price + amount, 0);
@@ -25,7 +26,16 @@ const reducer = (state, action) => {
         console.warn(`Can't remove product (id: ${action.id}) as it's not in basket!`);
       }
 
-      return {...state, basket: newBasket}
+      return {
+        ...state, 
+        basket: newBasket
+      }
+
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user
+      }
 
     default:
       return state;
