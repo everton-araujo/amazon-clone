@@ -15,7 +15,7 @@ function Home() {
         />
 
         <div className="home_row">
-          <Product 
+          <Product
             title='Kindle'
             price={89.99}
             image={'https://images-na.ssl-images-amazon.com/images/I/61Ww4abGclL._AC_SL1000_.jpg'}

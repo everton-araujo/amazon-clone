@@ -17,3 +17,9 @@
   margin-bottom: -20%;
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0)); */
 }
+
+.header strong {
+  color: #FFF;
+  margin-right: 1rem;
+  margin-left: -6px;
+}
