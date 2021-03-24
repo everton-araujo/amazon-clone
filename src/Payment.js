@@ -40,6 +40,8 @@ function Payment() {
   const stripe = useStripe();
   const elements = useElements();
 
+  console.log('The Secret is >>>', clientSecret);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setProcessing(true);
